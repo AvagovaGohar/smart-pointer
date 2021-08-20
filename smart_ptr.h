@@ -1,3 +1,5 @@
+#ifndef SHARED_PTR
+#define SHARED_PTR
 #include <iostream>
 #include <functional>
 
@@ -34,3 +36,4 @@ namespace smt_p{
         control_block* cur_block;
     };
 }
+#endif 
